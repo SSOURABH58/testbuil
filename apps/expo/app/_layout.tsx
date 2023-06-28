@@ -4,7 +4,9 @@ import { Stack } from 'expo-router'
 export default function Root() {
   return (
     <Provider>
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="notifications" />
+      </Stack>
     </Provider>
   )
 }
