@@ -6,6 +6,7 @@ export default function Root() {
     <Provider>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="notifications" />
+        <Stack.Screen name="webview" />
       </Stack>
     </Provider>
   )
